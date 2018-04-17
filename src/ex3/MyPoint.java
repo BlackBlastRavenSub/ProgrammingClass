@@ -18,7 +18,7 @@ public class MyPoint {
     }
 
     public double getR() {
-        return Math.sqrt(x*x+y*y);
+        return Math.sqrt(x * x + y * y);
     }
 
     public double getTheta() {
@@ -29,9 +29,9 @@ public class MyPoint {
     }
 
     public double distance(MyPoint anotherPoint) {
-        int x1=anotherPoint.x-x;
-        int y1=anotherPoint.y-y;
-        return Math.sqrt(x1*x1+y1*y1);
+        int x1 = anotherPoint.x - x;
+        int y1 = anotherPoint.y - y;
+        return Math.sqrt(x1 * x1 + y1 * y1);
     }
 
     public String toString() {
