@@ -13,7 +13,6 @@ public class Yen {
 
     public void draw(Graphics g) {
         g.setColor(Color.black);
-        //g.drawOval(x, y, 10, 10);
         g.drawString("円", x, y);
     }
 }
