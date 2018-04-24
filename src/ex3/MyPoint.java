@@ -22,10 +22,7 @@ public class MyPoint {
     }
 
     public double getTheta() {
-        /*rcos(th)=x
-        x/r=cos(th)
-        */
-        return 0;
+        return Math.toDegrees(Math.atan2(y, x));
     }
 
     public double distance(MyPoint anotherPoint) {
