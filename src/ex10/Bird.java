@@ -1,6 +1,6 @@
 package ex10;
 
-public class Bird {
+public abstract class Bird {
     void pick(){
         System.out.println("つつきます。");
     }
